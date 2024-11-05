@@ -24,7 +24,7 @@ build:
 	python3 -m build .
 
 clean:
-	rm -rf ./build ./dist ./blocksnet.egg-info
+	rm -rf ./build ./dist ./${SOURCE_DIR}.egg-info
 
 pypi: clean build # команда для сборки и загрузки в pypi
 	python3 -m twine upload dist/*

@@ -50,7 +50,7 @@ Next examples will help one to get used to the library:
 Documentation
 -------------
 
-Detailed information and description of BlocksNet is available in
+Detailed information and description of the library is available in
 `documentation <...>`__.
 
 Project Structure
@@ -63,15 +63,13 @@ The repository includes the following directories and modules:
 -  `my_package <./my_package>`__
    directory with the library code:
 
-   -  preprocessing - data preprocessing module
-   -  models - entities' classes used in library
-   -  method - library tool methods based on ``City`` model
-   -  utils - module containing utulity functions and consts
+   -  ...
+   -  ...
 
 -  `tests <./tests>`__
    ``pytest`` testing
 -  `examples <./examples>`__
-   examples of how methods work
+   examples of how the library works
 -  `docs <./docs>`__
    documentation sources
 
@@ -102,13 +100,13 @@ Also, you are welcomed to the `issues <./issues>`__ section!
 Publications
 ------------
 
--  `My publication name from scholar or something <https://scholar.google.com/`__
+-  `My publication name from scholar or something <https://scholar.google.com/>`__
 -  ...
 
 .. |Documentation Status| image:: https://github.com/vasilstar97/python-package-boilerplate/actions/workflows/documentation.yml/badge.svg?branch=main
    :target: https://github.com/vasilstar97/python-package-boilerplate
 .. |PythonVersion| image:: https://img.shields.io/badge/python-3.10-blue
-   :target: https://pypi.org/project/blocksnet/
+   :target: https://pypi.org/project/geopandas/
 .. |Black| image:: https://img.shields.io/badge/code%20style-black-000000.svg
    :target: https://github.com/psf/black
 

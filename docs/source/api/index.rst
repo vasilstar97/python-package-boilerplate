@@ -1,7 +1,7 @@
 API documentation
 =================
 
-The modules of BlocksNet are listed below:
+The modules of MyPackage are listed below:
 
 .. autosummary::
    :toctree: _autosummary
