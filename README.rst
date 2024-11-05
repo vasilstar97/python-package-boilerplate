@@ -51,7 +51,7 @@ Documentation
 -------------
 
 Detailed information and description of the library is available in
-`documentation <...>`__.
+`documentation <https://vasilstar97.github.io/python-package-boilerplate/>`__.
 
 Project Structure
 -----------------
@@ -104,7 +104,7 @@ Publications
 -  ...
 
 .. |Documentation Status| image:: https://github.com/vasilstar97/python-package-boilerplate/actions/workflows/documentation.yml/badge.svg?branch=main
-   :target: https://github.com/vasilstar97/python-package-boilerplate
+   :target: https://vasilstar97.github.io/python-package-boilerplate/
 .. |PythonVersion| image:: https://img.shields.io/badge/python-3.10-blue
    :target: https://pypi.org/project/geopandas/
 .. |Black| image:: https://img.shields.io/badge/code%20style-black-000000.svg
