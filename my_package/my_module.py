@@ -1,17 +1,5 @@
 """
-my_module.py
-
 This module provides an example class and a function for basic arithmetic operations.
-
-Classes
--------
-MyClass
-    A class that represents a simple example with an integer argument.
-
-Functions
----------
-my_function(a: int, b: int) -> int
-    Add two integers together.
 """
 
 class MyClass:
