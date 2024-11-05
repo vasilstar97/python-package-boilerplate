@@ -9,8 +9,9 @@ Documentation:
 --------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
+   guide/index
    examples/index
    api/index
 
