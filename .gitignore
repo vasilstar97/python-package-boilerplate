@@ -9,6 +9,7 @@ __pycache__/
 build/
 dist/
 *.egg-info/
+_autosummary
 
 # Unit test / coverage reports
 htmlcov/
@@ -41,6 +42,3 @@ ENV/
 
 # PyCharm env
 .idea
-
-# docs autosummary
-_autosummary

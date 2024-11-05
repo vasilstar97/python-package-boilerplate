@@ -1,12 +1,19 @@
-import os
 import pytest
-import geopandas as gpd
-from blocksnet import BlocksGenerator, LandUse, LandUseProcessor
+from my_package.my_module import my_function
 
-zones_to_lu = {"zone_1": LandUse.RECREATION, "zone_2": LandUse.RESIDENTIAL, "zone_3": LandUse.BUSINESS}
 
 @pytest.fixture
-def boundaries():
-    gdf = gpd.read_parquet(os.path.join(data_path, "boundaries.parquet"))
-    crs = gdf.estimate_utm_crs()
-    return gdf.to_crs(crs)
+def a():
+    return 2
+
+@pytest.fixture
+def b():
+    return 2
+
+@pytest.fixture
+def c():
+    return 4
+
+def test_my_function(a, b, c):
+    assert my_function(a, b) == c
+
