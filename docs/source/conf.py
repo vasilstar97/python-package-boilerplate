@@ -21,8 +21,8 @@ from sphinx.builders.html import StandaloneHTMLBuilder
 # -- Project information -----------------------------------------------------
 
 project = "MyPackage"
-copyright = "2024-{}, IDU".format(datetime.datetime.now().year)
-author = "IDU"
+copyright = "2024-{}".format(datetime.datetime.now().year)
+author = "My name"
 
 # The full version, including alpha/beta/rc tags
 release = "0.0.1" # needs to be changed from time to time

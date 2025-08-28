@@ -35,18 +35,10 @@ build:
 clean:
 	rm -rf ./build ./dist ./${SOURCE_DIR}.egg-info
 
-# pypi
-
-pypi: clean build # команда для сборки и загрузки в pypi
-	python3 -m twine upload dist/*
-
-test-pypi: clean build # команда для сборки и загрузки в тестовый pypi
-	python3 -m twine upload --repository testpypi dist/*
-
 # testing
 
-test: # тестирование
+tests: # тестирование
 	pytest ${TEST_DIR}
 
-test-cov: # тестирование с выводом процента покрытия кода тестами
+tests-cov: # тестирование с выводом процента покрытия кода тестами
 	pytest ${TEST_DIR} --cov
